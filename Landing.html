@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Samwel's Landing Page</title>
+  <style>
+    * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f8;
+      
+    }
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: 100vh;
+      padding: 20px;
+      background: url('LandingBackground.jpg')center/cover no-repeat;
+      color: white;
+    }
+    h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      font-family:'Tagesschrift', sans-serif;
+    }
+    p {
+      font-size: 18px;
+      max-width: 500px;
+      margin-bottom: 30px;
+    }
+    button {
+      padding: 12px 24px;
+      font-size: 16px;
+      background-color: white;
+      color: #1e90ff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    button:hover {
+      background-color: #e0e0e0;
+    }
+    .navbar {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px 30px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Tinos', serif;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+  </style>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="landing.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="hero">
+        <h1>Welcome to Samwel's World</h1>
+    <p>Comming Soon.</p>
+    <a href="about.html"><button>Learn More</button></a>
+  </div>
+</body>
+</html>
